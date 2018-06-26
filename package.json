@@ -1,10 +1,13 @@
 {
-    "name": "react-assignment-server",
-    "version": "0.1.0",
-    "private": false,
-    "dependencies": {},
+    "name": "react-assignment",
+    "version": "1.0.0",
+    "repository": "https://github.com/brianfakhoury/react-assignment.git",
+    "author": "brianfakhoury <brianfakhoury@yahoo.com>",
     "scripts": {
         "start": "node server/server.js"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.16.3"
+    }
 }
