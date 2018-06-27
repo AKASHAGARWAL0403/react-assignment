@@ -18,3 +18,11 @@ Your task is to create one-page application with list of clients and their detai
 -   build tool of your choice
 -   you can use CSS framework, CSS/HTML preprocessors of your choice
 -   git is required
+
+## Launching
+
+First, make sure your directory is set to the root of this repository, then type `yarn start` to start the server. Then `cd react-ui` in a separate terminal and `yarn start` again to launch the dev server for serving the frontend. Therefore, this repository has 2 `package.json`'s. This frontend is configured to proxy all requests to the backend at port 5000, which is a similar setup to our project at Friendly Storage.
+
+## Comment:
+
+This is not a very structured assignment as we want to give you a chance to show of your skills in both react and express. Make the application works as best as you can, because we will be looking at code structure and functionality first and foremost to determine your skill level.
