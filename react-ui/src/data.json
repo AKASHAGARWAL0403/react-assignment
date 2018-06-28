@@ -1,0 +1,94 @@
+{
+    "Clients" : [{
+        "link" : "/assets/images/people1.jpg",
+        "name" : "AKASH AGARWAL",
+        "job_title" : "STUDENT",
+        "details" : {
+           "Age" : "19",
+           "Qualifications" : "B-TECH",
+           "phone_no"  : "9162******"
+        }
+    },
+    {
+        "link" : "/assets/images/people2.jpg",
+        "name" : "Sam Williams",
+        "job_title" : "BUSINESSMAN",
+        "details" : {
+            "Age" : "30",
+            "Qualifications" : "GRADUATE",
+            "phone_no"  : "9162******"
+         }
+    },
+    {
+        "link" : "/assets/images/people3.jpg",
+        "name" : "Salman Khan",
+        "job_title" : "LAWER",
+        "details" : {
+            "Age" : "45",
+            "Qualifications" : "BBA",
+            "phone_no"  : "9162******"
+         }
+    },
+    {
+        "link" : "/assets/images/people4.jpg",
+        "name" : "Altaf Bashar",
+        "job_title" : "STUDENT",
+        "details" : {
+            "Age" : "20",
+            "Qualifications" : "B-TECH",
+            "phone_no"  : "9162******"
+         }
+    },
+    {
+        "link" : "/assets/images/people5.jpg",
+        "name" : "Sarah Taylor",
+        "job_title" : "CRICKERTER",
+        "details" : {
+            "Age" : "32",
+            "Qualifications" : "DIPLOMA",
+            "phone_no"  : "9162******"
+         }
+    },
+    {
+        "link" : "/assets/images/people6.jpg",
+        "name" : "Monika Stark",
+        "job_title" : "DOCTOR",
+        "details" : {
+            "Age" : "50",
+            "Qualifications" : "MBBS",
+            "phone_no"  : "9162******"
+         }
+    },
+    {
+        "link" : "/assets/images/people7.jpg",
+        "name" : "Tony Wayne",
+        "job_title" : "ACTOR",
+        "details" : {
+            "Age" : "29",
+            "Qualifications" : "M-TECH",
+            "phone_no"  : "9162******"
+         }
+    },
+    {
+        "link" : "/assets/images/people8.jpg",
+        "name" : "Jon Snow",
+        "job_title" : "ACTOR",
+        "details" : {
+            "Age" : "37",
+            "Qualifications" : "PHD",
+            "phone_no"  : "9162******"
+         }
+    },
+    {
+        "link" : "/assets/images/people9.jpg",
+        "name" : "Kit Harington",
+        "job_title" : "DEVELOPER",
+        "details" : {
+            "Age" : "23",
+            "Qualifications" : "MS",
+            "phone_no"  : "9162******"
+         }
+    }      
+  ]
+  }
+  

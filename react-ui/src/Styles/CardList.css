@@ -1,0 +1,87 @@
+.card-body{
+    padding-top : 5px;
+    padding-left : 5px
+}
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0px
+}
+
+.subHeading{
+    font-size: 15px;
+    position: relative;
+    left: 1px;
+    font-family: 'Roboto', sans-serif;
+    opacity: .7;
+    display : block
+}
+.card{
+    width : 250px;
+    float : left;
+    padding : 7.5px;
+    margin:7.5px;
+    border : 0
+}
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-open:hover{
+cursor: pointer;
+}
+.card-close:hover{
+cursor: not-allowed    
+}
+.DetailsTitle{
+    font-weight: 500;
+    padding-right: 15px;
+}
+#input{
+    margin: 10px;
+    position: relative;
+    top: 4px;
+    padding: 8px;
+    font-size: 15px;
+}
+@media screen and (max-width: 1199px) and (min-width : 657px) {
+    .row{
+        padding-left: 80px
+    }
+}
+@media screen and (max-width: 658px) and (min-width : 612px) {
+    .row{
+        padding-left: 35px
+    }
+}
+@media screen and (max-width: 576px) and (min-width : 490px) {
+    .row{
+        padding-left: 130px
+    }
+}
+@media screen and (max-width: 490px) and (min-width : 440px) {
+    .row{
+        padding-left: 80px
+    }
+}
+@media screen and (max-width: 440px) and (min-width : 370px) {
+    .row{
+        padding-left: 65px
+    }
+}
+@media screen and (max-width:370px) {
+    .row{
+        padding-left: 25px
+    }
+}
+@media (max-width: 767px){
+    .container {
+        max-width: 740px;
+    }
+}
+@media screen and (max-width:643px) {
+    .Heading{
+      padding-top: 140px
+    }
+}
+  
