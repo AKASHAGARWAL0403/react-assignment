@@ -10,10 +10,10 @@ export default class test extends React.Component{
     }
     
     CardUpdate = ()=>{
-        if(this.props.data.Clients.length)
+        if(this.props.data.length)
     {
-      CardComponent = this.props.data.Clients.map((res)=>{
-           return  <Card data={res}/>
+      CardComponent = this.props.data.map((res)=>{
+           return  <Card data={res} key={res.general.avatar} />
          })
     }
      else{

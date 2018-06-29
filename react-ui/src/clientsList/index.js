@@ -2,13 +2,13 @@ import React, { Fragment } from "react";
 import CardGroup from "./CardGroup"
 import Search from "./Search"
 
-var Data_dummy = {Clients : []}
+var Data_dummy =[]
 export default class List extends React.Component{
     constructor(props)
     {
         super(props);
         this.state = {
-          data : {Clients : [] },
+          data : [],
           FilterValue : "Search By Name",
           SearchValue  : "" 
         }
@@ -29,7 +29,7 @@ export default class List extends React.Component{
         Data_dummy = data
       });
 
-      console.log(this.state.datas)
+    
     }
 
     handleFilter = (value)=>{
@@ -40,16 +40,28 @@ export default class List extends React.Component{
       }
 
     handleSearchValue = (value , filter)=>{
-     var Result = {Clients:[]};
-        Result.Clients = Data_dummy.Clients.filter((res)=>{
-          if(filter == "Search By Name")
-            return (res.name.toLowerCase().indexOf(value.toLowerCase())>=0)
+     var Result = [];
+        Result = Data_dummy.filter((res)=>{
+          if(filter == "Search By First Name")
+            return (res.general.firstName.toLowerCase().indexOf(value.toLowerCase())>=0)
+          else if(filter == "Search By Last Name")
+            return (res.general.lastName.toLowerCase().indexOf(value.toLowerCase())>=0)  
           else if(filter == "Search By Job Title") 
-            return (res.job_title.toLowerCase().indexOf(value.toLowerCase())>=0)
-          else if(filter == "Search By Age") 
-            return (res.details.Age.indexOf(value)>=0) 
+            return (res.job.title.toLowerCase().indexOf(value.toLowerCase())>=0)
+          else if(filter == "Search By phone") 
+            return (res.contact.phone.indexOf(value)>=0) 
+          else if(filter == "Search By email") 
+            return (res.contact.email.toLowerCase().indexOf(value.toLowerCase())>=0)
+          else if(filter == "Search By street") 
+            return (res.address.street.toLowerCase().indexOf(value.toLowerCase())>=0)
+          else if(filter == "Search By city") 
+            return (res.address.city.toLowerCase().indexOf(value.toLowerCase())>=0) 
+          else if(filter == "Search By country") 
+            return (res.address.country.toLowerCase().indexOf(value.toLowerCase())>=0)          
+          else if(filter == "Search By Company") 
+            return (res.job.company.toLowerCase().indexOf(value.toLowerCase())>=0)             
           else 
-            return (res.details.Qualifications.toLowerCase().indexOf(value.toLowerCase())>=0)
+            return (res.address.zipCode.indexOf(value)>=0)
           
        });
        this.setState(()=>({

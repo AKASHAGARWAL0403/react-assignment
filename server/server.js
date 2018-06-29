@@ -2,7 +2,7 @@ const path = require('path');
 const express = require('express');
 const PORT = process.env.PORT || 5000;
 const app = express();
-const data = require("./../react-ui/src/data.json")
+const data = require("./clients.json")
 
 app.use(express.static(path.resolve(__dirname, '../react-ui/build')));
 

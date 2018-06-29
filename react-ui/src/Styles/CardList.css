@@ -37,6 +37,9 @@ cursor: not-allowed
     font-weight: 500;
     padding-right: 15px;
 }
+.subDetails{
+    display: block
+}
 #input{
     margin: 10px;
     position: relative;
